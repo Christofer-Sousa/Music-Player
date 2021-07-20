@@ -1,0 +1,7 @@
+[x]Change volume
+[x]PLay next
+[x]Image of music
+[]Convert to Electron
+[]Dark Mode
+
+[x]se esta tocando e mudar de musica{ troque o botão de pause para o botão play}

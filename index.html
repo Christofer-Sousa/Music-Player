@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1 id="musicName">Nome da musica</h1>
+            <img id="music_image" src="./src/IMG/music1.jpg">
+            <input id="range" class="level" type="range" value="0" min="0">
+            <div class="buttons">
+                <button id="list"><a href="list-music.html"><img style="width: 20px; height: 20px;" src="./src/IMG/list.png" alt=""></a></button>
+                <button id="pre"><img src="./src/IMG/rewind.png"></button>
+                <button id="play"><img id="play_img" src="./src/IMG/play.png"></button>
+                <button id="next"><img src="./src/IMG/next.png"></button>
+                <button id="like"><img style="width: 20px; height: 20px;" src="./src/IMG/liked-icon.png" alt=""></button>
+            </div>
+            
+            <i><img style="width: 20px;" src="./src/IMG/volume.png" alt=""></i>
+            <input type="range" class="volume" value="3" min="0" max="100">    
+            
+                    
+        </div>       
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
+
